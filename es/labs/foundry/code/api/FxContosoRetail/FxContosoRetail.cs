@@ -221,7 +221,7 @@ public class FxContosoRetail
 
         // --- Descargar el template HTML ---
         string templateUrl = _configuration["BillTemplate"]
-            ?? "https://raw.githubusercontent.com/warnov/multi-agentic-workshop/refs/heads/master/assets/bill-template.html";
+            ?? "https://raw.githubusercontent.com/oaviles/multi-agentic-workshop/refs/heads/master/assets/bill-template.html";
 
         string html;
         try

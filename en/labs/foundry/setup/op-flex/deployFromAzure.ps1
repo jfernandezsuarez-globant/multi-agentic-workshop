@@ -5,7 +5,7 @@
 #
 # PREREQUISITES in Cloud Shell:
 #   1. Clone the repository (first time only):
-#        git clone https://github.com/warnov/multi-agentic-workshop.git
+#        git clone https://github.com/oaviles/multi-agentic-workshop.git
 #   2. Run this script:
 #        cd multi-agentic-workshop/en/labs/foundry/setup/op-flex
 #        pwsh ./deployFromAzure.ps1

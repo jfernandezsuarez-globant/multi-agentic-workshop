@@ -88,7 +88,7 @@ Excelente! Agora temos nosso site do SharePoint; vamos para a seção Documents:
 ![imagem](img/image5_Charlie.png)
 
 10. Agora vamos criar uma nova pasta e chamá-la de "Products".
-11. Quando estiver pronto, faça o upload do arquivo "Product\_Catalog" que você baixou do repositório do GitHub [taller-multi-agentic/assets/Product_Catalog.docx](https://github.com/warnov/taller-multi-agentic/blob/main/assets/Product_Catalog.docx).
+11. Quando estiver pronto, faça o upload do arquivo "Product\_Catalog" que você baixou do repositório do GitHub [taller-multi-agentic/assets/Product_Catalog.docx](https://github.com/oaviles/taller-multi-agentic/blob/main/assets/Product_Catalog.docx).
 12. A base de conhecimento está pronta! Vamos voltar à configuração do agente.
 
 ---

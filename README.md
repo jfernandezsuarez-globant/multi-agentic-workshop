@@ -29,3 +29,5 @@ For a historical record of substantial engineering changes to this workshop (e.g
 - 🇨🇴 Oscar Gutiérrez – C&AI Architect
 - us Sergio Plascencia Schaefer - AIBS Architect
 - 🇨🇴 [Walter Novoa](https://github.com/warnov) – C&AI Architect
+- co Ana López - Data & AI Architect
+- mx Omar Aviles - C&AI Architect
