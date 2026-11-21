@@ -6,7 +6,7 @@ The architecture is organized into three well‑defined layers:
 
 - **Microsoft Fabric** as the data layer: hosts the retail SQL database and a Data Agent that answers natural-language questions.
 - **Microsoft Foundry** as the reasoning and execution layer: agents that generate HTML reports via OpenAPI and plan marketing campaigns by querying the database.
-- **Copilot Studio** as the orchestration and conversational experience layer: an orchestrator agent that connects all agents, a product agent with knowledge in SharePoint, and a child agent that sends email.
+- **Copilot Studio** as the orchestration and conversational experience layer: an orchestrator agent that connects all agents, a product agent with knowledge in SharePoint, and a skill that uses Work IQ to send emails.
 
 We will explore orchestration capabilities in both Copilot Studio and Microsoft Foundry.
 
@@ -87,9 +87,9 @@ You can find the full documentation here: [Database Documentation](../assets/dat
 - **Charles (Product Q&A Agent)**
   Product analyst agent that answers questions using documentation stored in SharePoint as its knowledge base. It can also perform competitive analysis and market comparisons using public information on demand.
 - **Bill (Orchestrator)**
-  Central orchestrator. Detects user intent and delegates to the appropriate agent: connects external Fabric agents (Mark) and Foundry agents (Anders) with internal Copilot Studio agents (Charles, Ric). It is published in Microsoft 365 and Teams.
-- **Email Skill**
-    Skill of Bill responsible for sending emails to the user with the requested information (for example, query results or links to reports).
+  Central orchestrator. Detects user intent and delegates to the appropriate agent: connects external Fabric agents (Mark) and Foundry agents (Anders) with internal Copilot Studio agents (Charles). It is published in Microsoft 365 and Teams.
+  - **Email Skill**
+    Email Skill that uses Work IQ and is responsible for sending emails to the user with the requested information (for example, query results or links to reports).
 
 ### <a id="interoperability-layer"></a>Agent Interoperability Layer
 
@@ -132,18 +132,17 @@ The workshop is divided into independent but connected labs, organized by archit
 
 - [Lab 6 – Copilot Studio setup: environment, solution, and publisher](./labs/copilot/lab06-mcs-setup.en.md)
 - [Lab 7 – Charles Agent: product Q&A with SharePoint and market analysis](./labs/copilot/lab07-charles-copilot-agent.en.md)
-- [Lab 8 – Ric Agent: child agent for email sending + initial Bill configuration](./labs/copilot/lab08-ric-child-agent.en.md)
+- [Lab 8 – Initial Bill configuration and add the email skill](./labs/copilot/lab08-ric-child-agent.en.md)
 - [Lab 9 – Bill Orchestrator: connecting external (Mark, Anders) and internal (Charles) agents and defining orchestration rules](./labs/copilot/lab09-bill-orchestrator.en.md)
-- [Lab 10 – Give Bill oragnizational/work context with Work IQ](./labs/copilot/lab010-bill-workiq.en.md)
-- [Lab 11 – Publishing Bill in Microsoft 365 / Teams and end‑to‑end tests](./labs/copilot/lab011-bill-publishing.en.md)
+- [Lab 10 – Publishing Bill in Microsoft 365 / Teams and end‑to‑end tests](./labs/copilot/lab011-bill-publishing.en.md)
 
 ### 4. Microsoft Agent 365 lab (optional)
 
-- [Lab 12 – Keep Agents secure, compliance and under control](./labs/agent365/lab12-agent365.en.md)
+- [Lab 11 – Keep Agents secure, compliance and under control](./labs/agent365/lab12-agent365.en.md)
 
 ### 5. A2A lab (optional)
 
-- [Lab 13 – A2A-enabled Agent Framework agent hosted on Azure Container App](./labs/a2a/lab13-anne-a2a-agent.en.md)
+- [Lab 12 – A2A-enabled Agent Framework agent hosted on Azure Container App](./labs/a2a/lab13-anne-a2a-agent.en.md)
 
 ---
 
