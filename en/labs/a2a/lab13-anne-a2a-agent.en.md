@@ -1,4 +1,4 @@
-# Anne Agent (A2A) Lab
+# Lab 16: Anne Agent (A2A) Lab
 
 This workshop walks through building, running, securing, and deploying **Anne-Agent**:
 an A2A-enabled assistant built with the Microsoft Agent Framework for Python and the
