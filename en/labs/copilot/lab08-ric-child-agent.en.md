@@ -1,4 +1,4 @@
-# Bill as Customer Notifications Agent that uses skills and Work IQ.
+# Lab 12: Bill as Customer Notifications Agent that uses skills and Work IQ.
 
 ## 🎯 Mission summary
 
