@@ -1,4 +1,4 @@
-# Microsoft Agent 365 : Keep Agents secure, compliance and under control
+# Lab 15: Microsoft Agent 365 : Keep Agents secure, compliance and under control
 
 ### Under Construction ...
 
