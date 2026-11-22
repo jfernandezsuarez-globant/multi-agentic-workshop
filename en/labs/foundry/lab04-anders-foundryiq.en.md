@@ -1,4 +1,4 @@
-# Lab 4: Anders agent powered by Foundry IQ (Enterprise Knowledge).
+# Lab 08: Anders agent powered by Foundry IQ (Enterprise Knowledge).
 
 In this lab, you will learn how to ground an AI Agent using **Foundry IQ Knowledge Bases**. You will connect an Foundry IQ resource, configure a Knowledge Base using data from Azure Blob Storage, link it to an Agent (`Anders`), and test grounded knowledge extraction and document summarization in the Agent Playground.
 
