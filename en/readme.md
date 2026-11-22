@@ -123,26 +123,26 @@ The workshop is divided into independent but connected labs, organized by archit
 
 ### 2. Microsoft Foundry labs
 
-- [Foundry infrastructure setup](./labs/foundry/codespaces-setup.md)
-- [Lab 3 – Anders Agent: OpenAPI support, Function App deployment, and executor agent run](./labs/foundry/lab03-anders-executor-agent.en.md)
-- [Lab 4 – Anders Agent: Enterprise Knowledge powered by Foundry IQ](./labs/foundry/lab04-anders-foundryiq.en.md)
-- [Lab 5 – Julie Agent: workflow agent with SqlAgent and MarketingAgent sub‑agents](./labs/foundry/lab05-julie-planner-agent.en.md)
+- [Lab 6 - Foundry infrastructure setup](./labs/foundry/codespaces-setup.md)
+- [Lab 7 – Anders Agent: OpenAPI support, Function App deployment, and executor agent run](./labs/foundry/lab03-anders-executor-agent.en.md)
+- [Lab 8 – Anders Agent: Enterprise Knowledge powered by Foundry IQ](./labs/foundry/lab04-anders-foundryiq.en.md)
+- [Lab 9 – Julie Agent: workflow agent with SqlAgent and MarketingAgent sub‑agents](./labs/foundry/lab05-julie-planner-agent.en.md)
 
 ### 3. Copilot Studio labs
 
-- [Lab 6 – Copilot Studio setup: environment, solution, and publisher](./labs/copilot/lab06-mcs-setup.en.md)
-- [Lab 7 – Charles Agent: product Q&A with SharePoint and market analysis](./labs/copilot/lab07-charles-copilot-agent.en.md)
-- [Lab 8 – Initial Bill configuration and add the email skill](./labs/copilot/lab08-ric-child-agent.en.md)
-- [Lab 9 – Bill Orchestrator: connecting external (Mark, Anders) and internal (Charles) agents and defining orchestration rules](./labs/copilot/lab09-bill-orchestrator.en.md)
-- [Lab 10 – Publishing Bill in Microsoft 365 / Teams and end‑to‑end tests](./labs/copilot/lab011-bill-publishing.en.md)
+- [Lab 10 – Copilot Studio setup: environment, solution, and publisher](./labs/copilot/lab06-mcs-setup.en.md)
+- [Lab 11 – Charles Agent: product Q&A with SharePoint and market analysis](./labs/copilot/lab07-charles-copilot-agent.en.md)
+- [Lab 12 – Initial Bill configuration and add the email skill](./labs/copilot/lab08-ric-child-agent.en.md)
+- [Lab 13 – Bill Orchestrator: connecting external (Mark, Anders) and internal (Charles) agents and defining orchestration rules](./labs/copilot/lab09-bill-orchestrator.en.md)
+- [Lab 14 – Publishing Bill in Microsoft 365 / Teams and end‑to‑end tests](./labs/copilot/lab011-bill-publishing.en.md)
 
 ### 4. Microsoft Agent 365 lab (optional)
 
-- [Lab 11 – Keep Agents secure, compliance and under control](./labs/agent365/lab12-agent365.en.md)
+- [Lab 15 – Keep Agents secure, compliance and under control](./labs/agent365/lab12-agent365.en.md)
 
 ### 5. A2A lab (optional)
 
-- [Lab 12 – A2A-enabled Agent Framework agent hosted on Azure Container App](./labs/a2a/lab13-anne-a2a-agent.en.md)
+- [Lab 16 – A2A-enabled Agent Framework agent hosted on Azure Container App](./labs/a2a/lab13-anne-a2a-agent.en.md)
 
 ---
 
