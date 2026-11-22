@@ -1,4 +1,4 @@
-# Lab 06 - Microsoft Foundry — Intro and Infrastructure Setup
+# Lab 06: Microsoft Foundry — Intro and Infrastructure Setup
 
 ## Introduction
 
