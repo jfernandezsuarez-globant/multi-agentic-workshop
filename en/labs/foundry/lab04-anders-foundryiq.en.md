@@ -85,19 +85,21 @@ In this step, you will locate your target agent within the Microsoft Foundry por
 
 ## Step 3: Create a Knowledge Base
 
-1. Once connected, click the **Create a knowledge base** button on the Foundry IQ Knowledge Base overview screen.
+1. Create an Azure Storage account called "bikesstorage<use-your-3-or-4-initials>", add a blob containers calles "bikes" and upload this PDF file to the blob container. [EPIC_9_USER_MANUAL_ENGLISH.PDF](pdf/EPIC_9_USER_MANUAL_ENGLISH.pdf)
+
+2. Once connected, click the **Create a knowledge base** button on the Foundry IQ Knowledge Base overview screen.
 
 ![imagen](img/image6_Anders_FoundryIQ.png)
 
-2. Under **Basic configuration**, configure the following:
+3. Under **Basic configuration**, configure the following:
 
    * **Name**: Enter a unique name for your knowledge base (e.g., `knowledgebase139`).
 
-   * **Chat completions model**: Select `gpt-4.1` (or your preferred global deployment model).
+   * **Chat completions model**: Select `gpt-5.1` (or your preferred global deployment model).
 
    * **Retrieval reasoning effort**: Set to `Minimal` or `Normal`.
 
-3. Under **Knowledge sources (Foundry IQ)**, click **Add sources** and select **Azure Blob Storage**.
+4. Under **Knowledge sources (Foundry IQ)**, click **Add sources** and select **Azure Blob Storage**.
 
 ![imagen](img/image7_Anders_FoundryIQ.png)
 
@@ -173,9 +175,12 @@ In this step, you will locate your target agent within the Microsoft Foundry por
 
    * The Agent triggers a **Searching knowledge base...** call against `knowledgebase139`.
 
-   * The Agent retrieves the specific content for `127938_Scalpel29er_EN_SCR.pdf` page 4.
+   * The Agent retrieves the specific content for `EPIC_9_USER_MANUAL_ENGLISH.pdf` page 4.
 
    * The Agent synthesizes and outputs structured sections covering **Frame Materials & Structure**, **Suspension System**, **Geometry**, and **Additional Features**.
+
+> [!CAUTION]
+> In case of ERROR message showed in playground, follow this guideline [Fix Foundry knowledge-base access](grant-search-reader/README.md).
 
 ## Summary
 
