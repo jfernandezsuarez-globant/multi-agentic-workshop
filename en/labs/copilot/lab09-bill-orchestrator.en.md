@@ -1,4 +1,4 @@
-# MCS – Bill: Agent Orchestration
+# Lab 13: MCS – Bill: Agent Orchestration
 
 ## 🎯 Mission summary
 
