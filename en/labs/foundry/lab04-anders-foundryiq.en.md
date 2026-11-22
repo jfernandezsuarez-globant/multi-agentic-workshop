@@ -85,7 +85,7 @@ In this step, you will locate your target agent within the Microsoft Foundry por
 
 ## Step 3: Create a Knowledge Base
 
-1. Create an Azure Storage account called "bikesstorage<use-your-3-or-4-initials>", add a blob containers calles "bikes" and upload this PDF file to the blob container. [EPIC_9_USER_MANUAL_ENGLISH.PDF](pdf/EPIC_9_USER_MANUAL_ENGLISH.pdf)
+1. Create an Azure Storage account called "bikesstorageXXXX" (change XXXX for your 3 or 4 initials), add a blob containers calles "bikes" and upload this PDF file to the blob container. [EPIC_9_USER_MANUAL_ENGLISH.PDF](pdf/EPIC_9_USER_MANUAL_ENGLISH.pdf)
 
 2. Once connected, click the **Create a knowledge base** button on the Foundry IQ Knowledge Base overview screen.
 
