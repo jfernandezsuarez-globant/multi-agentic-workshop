@@ -1,4 +1,4 @@
-# Lab 5: Julie, the Campaign Orchestrator (hosted agent)
+# Lab 09: Julie, the Campaign Orchestrator (hosted agent)
 
 ## Table of contents
 
