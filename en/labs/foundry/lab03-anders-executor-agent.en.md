@@ -1,4 +1,4 @@
-## Table of contents
+## Lab 07: Table of contents
 
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
