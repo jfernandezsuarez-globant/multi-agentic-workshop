@@ -179,7 +179,7 @@ In this step, you will locate your target agent within the Microsoft Foundry por
 
    * The Agent synthesizes and outputs structured sections covering **Frame Materials & Structure**, **Suspension System**, **Geometry**, and **Additional Features**.
 
-> [!CAUTION]
+> [!Warning]
 > In case of ERROR message showed in playground, follow this guideline [Fix Foundry knowledge-base access](grant-search-reader/README.md).
 
 ## Summary
