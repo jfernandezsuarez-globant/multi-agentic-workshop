@@ -1,4 +1,4 @@
-# ** Lab 10: Microsoft Copilot Studio – Configuration**
+# Lab 10: Microsoft Copilot Studio – Configuration
 
 ## 🎯 Mission summary
 
