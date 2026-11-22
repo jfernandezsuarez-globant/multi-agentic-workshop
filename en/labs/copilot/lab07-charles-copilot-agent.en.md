@@ -1,4 +1,4 @@
-# MCS – Let’s build the Charles agent using the new Microsoft Copilot Harness
+# Lab 11: MCS – Let’s build the Charles agent using the new Microsoft Copilot Harness
 
 ## 💯 Microsoft Copilot Harness
 
