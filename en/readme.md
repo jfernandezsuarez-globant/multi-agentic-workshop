@@ -126,7 +126,7 @@ The workshop is divided into independent but connected labs, organized by archit
 - [Lab 6 - Foundry infrastructure setup](./labs/foundry/codespaces-setup.md)
 - [Lab 7 – Anders Agent: OpenAPI support, Function App deployment, and executor agent run](./labs/foundry/lab03-anders-executor-agent.en.md)
 - [Lab 8 – Anders Agent: Enterprise Knowledge powered by Foundry IQ](./labs/foundry/lab04-anders-foundryiq.en.md)
-- [Lab 9 – Julie Agent: workflow agent with SqlAgent and MarketingAgent sub‑agents](./labs/foundry/lab05-julie-planner-agent.en.md)
+- [Lab 9 (optional) – Julie Agent: workflow agent with SqlAgent and MarketingAgent sub‑agents](./labs/foundry/lab05-julie-planner-agent.en.md)
 
 ### 3. Copilot Studio labs
 
