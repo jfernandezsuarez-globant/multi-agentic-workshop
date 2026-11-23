@@ -37,11 +37,11 @@ By completing this lab, you will learn:
    ![imagen](img/image3_Bill.png)
 
 2. Select the **+ Add**, button in the next window and wait for the agents to populate.
-3. Locate the "**Mark**" agent created in Fabric earlier and select the "**Connect**" button.
+3. Locate the "**Mark IQ**" agent created in Fabric earlier and select the "**Connect**" button.
 
    ![imagen](img/image4.1_Bill.png)
 
-4. Under the **Tools** section locate and select the "**Mark**" tool to open its properties.
+4. Under the **Tools** section locate and select the "**Mark IQ**" tool to open its properties.
 
    ![imagen](img/image4.2_Bill.png)
 
