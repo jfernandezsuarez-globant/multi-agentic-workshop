@@ -58,7 +58,8 @@ By completing this lab, you will:
 > [!IMPORTANT]
 > - **Ontology is in preview.** The data agent itself is generally available.
 > - The **new ontology experience** is the default for new ontology items. The old experience retires on **January 31, 2027**. If your ontology shows a banner about the old experience, use the banner's option to create a copy in the new experience, then reconnect any agents to the copy and recreate rules manually.
-> - A data agent **doesn't work with an ontology that uses semantic models for binding**. Generate Ontology creates semantic-model bindings, so in section 4 you rebind every entity type to the `db_retail` SQL database. `sm_retail` stays connected to Mark IQ as a separate source for measures.
+> - A data agent **doesn't work with an ontology that uses semantic models for binding**. Generate Ontology 
+creates semantic-model bindings, so in section 4 you rebind every entity type to the `db_retail` SQL database. `sm_retail` stays connected to Mark IQ as a separate source for measures.
 > - Entity type keys must be **string or integer** columns. Parameterized `decimal(p,s)` columns can surface as strings in the graph, so don't use ontology properties for money. Monetary answers come from `sm_retail`.
 
 ---
@@ -92,6 +93,11 @@ If you already generated `retail_ontology` from `sm_retail` in the new experienc
 
 1. In the workspace, open `sm_retail`.
 2. In the ribbon (or the **...** menu), select **Generate Ontology**.
+   > [!WARNING]
+   > In some cases "Generate Ontoligy" ribbon is no enable, in this case you need to enable this feature in the Fabric Administrator .
+   > Navigate to: OneLake catalog → Govern → Configurations → Tenant settings 
+   > Find and enable these settings
+
 3. Select the current workspace and enter the name `retail_ontology`.
 4. Select **Create** and wait for the ontology to open.
 
