@@ -228,7 +228,7 @@ ii. Orders → Orderline (1:*)
 
 ![Orders → Orderline](images/sm4.g.3.png)
 
-iii. Product → Orderline (1:1)
+iii. Product → Orderline (1:*)
 
 Use `product[ProductID]` on the one side and `orderline[ProductID]` on the many side. Both columns are integers in the source database.
 
