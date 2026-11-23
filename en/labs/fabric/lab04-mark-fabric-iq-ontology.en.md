@@ -94,9 +94,15 @@ If you already generated `retail_ontology` from `sm_retail` in the new experienc
 1. In the workspace, open `sm_retail`.
 2. In the ribbon (or the **...** menu), select **Generate Ontology**.
    > [!WARNING]
-   > In some cases "Generate Ontology" ribbon is not enable, in this case, you need to turn on this feature in the Fabric Administrator .
+   >
+   > In some cases "Generate Ontology" ribbon is not enable, in this case, you need to turn on this feature in the Fabric Administrator.
+   >
    > Navigate to: OneLake catalog → Govern → Configurations → Tenant settings 
-   > Find and enable these settings
+   >  
+   > Find and enable these settings.
+   >
+   > Review step 2 "Verify prerequiments" above.
+   > References: [Ontology prerequisites](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-0-introduction) and [Fabric data agent tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings).
 
 3. Select the current workspace and enter the name `retail_ontology`.
 4. Select **Create** and wait for the ontology to open.
